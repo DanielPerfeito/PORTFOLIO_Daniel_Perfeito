@@ -6,12 +6,18 @@ body{
 }
 
 a{text-decoration: none;}
+
 .back{
     background-image: url(../ativos/back-1.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
+}
+
+#logo1{
+    height: 80px;
+    padding: 10px;
 }
 
 nav{
@@ -61,7 +67,7 @@ nav ul li a{
     margin: -20px ;}
 
 nav ul li a:hover{
-    color: #00ffff;
+    color: #f4e5d0;
     background-color: #000000;
     border-top: none;
     border-radius: 5px ;
@@ -70,7 +76,7 @@ nav ul li a:hover{
 
 .main{
     position: absolute;
-    top:400px;
+    top:425px;
     left: 08%;
 }
 
