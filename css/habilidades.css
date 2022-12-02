@@ -1,12 +1,10 @@
-
-.habilidades{
-  background-color: #0e0e14;
-   width: 100%;
+.habilidades {
+    background-color: #0e0e14;
+    width: 100%;
     padding: 100px 0;
-    
 }
 
-.titulo h2{
+.titulo h2 {
     color: #f4e5d0;
     font-size: 3rem;
     width: 1130px;
@@ -14,7 +12,7 @@
     text-align: center;
 }
 
-.caixa-habilidades{
+.container-habilidades {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +20,7 @@
     min-height: 320px;
 }
 
-.card{ 
+.card {
     background-color: #0e0e14;
     display: flex;
     width: 700px;
@@ -30,45 +28,47 @@
     align-items: center;
     position: relative;
     padding: 15px;
-   border:solid 4px #00ffff;
+    border: solid 4px #00ffff;
     border-radius: 30px;
     text-align: center;
+    transition: .8s;
 }
 
-.card img{
+.card img {
     width: 180px;
     border-radius: 25px;
-   background-color: #ffffff; 
-   border: double 10px #000000 ;
+    background-color: #ffffff;
+    border: double 10px #000000;
 }
 
-.descricao-habilidade{
-    margin:0 15px;
-    
+.descricao-habilidade {
+    margin: 0 15px;
 }
 
-.descricao-habilidade h2{
+.descricao-habilidade h2 {
     color: #00ffff;
-    margin: 0 0 10px 0 ;
+    margin: 0 0 10px 0;
     font-size: 2rem;
 }
 
-.descricao-habilidade p{
+.descricao-habilidade p {
     color: #f4e5d0;
     height: 115px;
     margin: 0;
     font-size: 1.2rem;
     font-weight: bolder;
     text-align: center;
+}
 
-  }
-
-.descricao-habilidade h3{
+.descricao-habilidade h3 {
     background-color: #00ffff;
     border-radius: 25px;
     color: #0e0e14;
     margin: 20px;
     font-size: 1.4rem;
-  
-    
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: .8s;
 }

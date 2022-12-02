@@ -5,9 +5,11 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-a{text-decoration: none;}
+a{
+    text-decoration: none;
+}
 
-.back{
+.inicio{
     background-image: url(../ativos/back-1.png);
     background-size: cover;
     background-position: center;
@@ -40,13 +42,10 @@ nav h2{
 span{
     color: aqua;
     text-shadow: 1px 1px 1px #000000;
-
 }
 
 nav ul{
-    
     border-radius: px;
-    
 }
 
 nav ul li{
