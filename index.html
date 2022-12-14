@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="./css/inicio.css">
     <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/habilidades.css">
@@ -34,10 +35,28 @@
 
         <div class="main">
             <h4>Olá, eu sou</h4> <br>
-            <h1>Daniel<span>Perfeito</span>_</h1> <br>
+            <h1>Daniel<span>Perfeito</span></h1> <br>
             <h3>Desenvolvedor Front-End</h3>
             <a href="#"><button id="link1">LinkedIn</button></a>
         </div><!--Main-->
+
+        <aside>
+            <div class="icon-menu">
+                <div class="menu"><ion-icon name="menu"></ion-icon></div>
+            </div><!--Icon menu-->
+
+            <div id="barra-menu">
+                <ul>
+                    <li><a href="#">INÍCIO</a></li>
+                    <li><a href="#section-sobre">SOBRE MIM</a></li>
+                    <li><a href="#section-habilidades">HABILIDADES</a></li>
+                    <li><a href="#section-projetos">PROJETOS</a></li>
+                    <li><a href="#">CONTATOS</a></li>
+                </ul>
+
+                <img id="logo1" src="ativos/logo1.png" alt="">
+            </div>
+        </aside>
 
     </section> <!--Section-inicio-->
 
@@ -47,6 +66,8 @@
     <section id="section-sobre" class="sobre">
 
         <div class="main-sobre">
+
+
             <img src="ativos/perfil.jpg" alt="">
             <div class="text-sobre">
                 <h2>Sobre <span>Mim</span></h2>
@@ -58,9 +79,9 @@
             </div>
         </div>
 
-    </section>  <!--background-sobre-->
+    </section> <!--background-sobre-->
 
-   
+
     <!--=============================SECTION HABILIDADES==============================-->
 
     <section id="section-habilidades" class="habilidades">
@@ -71,56 +92,55 @@
 
         <div class="container-habilidades">
 
-            <div class="card">
+            <div id="card1" class="card">
                 <img src="ativos/icon-html.png" alt="">
                 <div class="descricao-habilidade">
                     <h2>HTML</h2>
                     <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem
                         ser
-                        interpretados por navegadores.</p>
-                    <h3>Nivel: Intermediário</h3>
+                        interpretados por navegadores. <br>
+                        <span>Nivel: Intermediário</span>
+                    </p>
                 </div>
             </div> <!--Card 1-->
 
-            <div class="card">
+            <div id="card2" class="card">
                 <img src="ativos/icons-css.png" alt="">
                 <div class="descricao-habilidade">
                     <h2>CSS</h2>
                     <p>O CSS é uma linguagem de folhas de estilos que é utilizada para definir a aparência de documentos
-                        escritos na linguagem de marcação (HTML).</p>
-                    <h3>Nivel: Intermediário</h3>
+                        escritos na linguagem de marcação (HTML). <br> <span>Nivel: Intermediário</span> </p>
+
                 </div>
             </div><!--Card 2-->
 
-            <div class="card">
+            <div id="card3" class="card">
                 <img src="ativos/icon-javascript.png" alt="">
                 <div class="descricao-habilidade">
                     <h2>JavaScript</h2>
                     <p>JavaScript é uma linguagem de programação de alto nível criada, a princípio, para ser executada
                         em
-                        navegadores e manipular comportamentos de sites.</p>
-                    <h3>Nivel: Básico</h3>
+                        navegadores e manipular comportamentos de sites. <br> <span>Nivel: Básico</span></p>
                 </div>
             </div><!--Card 3-->
 
-            <div class="card">
+            <div id="card4" class="card">
                 <img src="ativos/icon-git.png" alt="">
                 <div class="descricao-habilidade">
                     <h2>Git</h2>
                     <p>Git é um sistema de controle de versões distribuído, usado no desenvolvimento de software, para
-                        registrar o histórico de edições dos arquivos.</p>
-                    <h3>Nivel: Básico</h3>
+                        registrar o histórico de edições dos arquivos. <br> <span>Nivel: Básico</span> </p>
                 </div>
+
             </div><!--Card 4-->
 
-            <div class="card">
+            <div id="card5" class="card">
                 <img src="ativos/icons-github .png" alt="">
                 <div class="descricao-habilidade">
                     <h2>GitHub</h2>
-                    <p><br> GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão
-                        usando o Git.
+                    <p> GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão
+                        usando o Git. <br> <span>Nivel: Básico</span>
                     </p>
-                    <h3>Nivel: Básico</h3>
                 </div>
             </div><!--Card 5-->
 
@@ -129,7 +149,7 @@
     </section> <!--Section-habilidades-->
 
 
-     <!--=============================SECTION PROJETOS==============================-->
+    <!--=============================SECTION PROJETOS==============================-->
 
     <section id="section-projetos" class="projetos">
 
@@ -184,7 +204,7 @@
 
     </section><!--Section-projetos-->
 
-    
+
     <!--=================================RODAPÉ=================================-->
 
     <footer>
@@ -196,14 +216,19 @@
             </div>
 
             <div class="contatos">
+
                 <a href=""><img src="ativos/icon-linkedin.png" alt=""></a>
                 <a href=""><img src="ativos/icons-github2 (2).png" alt=""></a>
                 <a href=""><img src="ativos/icon-whatsapp.png" alt=""></a>
                 <a href=""><img src="ativos/icon-email.png"></a>
+
             </div>
         </nav>
 
     </footer> <!--Footer-->
+
+    <script src="JS/script.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"> </script>
 
 </body>
 
