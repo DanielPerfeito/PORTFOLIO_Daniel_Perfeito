@@ -144,7 +144,6 @@ MEDIAS = RESPONSIVIDADE*/
         font-size: 1.1rem;
         font-weight: bolder;
         text-align: center;
-       
     }
 
     .descricao-habilidade h2 {
@@ -156,12 +155,9 @@ MEDIAS = RESPONSIVIDADE*/
 
     .titulo h2 {
         font-size: 2rem;
-       
     }
 
     .descricao-habilidade h2 {
         font-size: 1.5rem
     }
-
-
 }

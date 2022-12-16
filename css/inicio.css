@@ -11,23 +11,30 @@
 
 /*Barra Lateral -> */
 aside {
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     top: 0;
     right: 0;
     display: flex;
     overflow: hidden;
+
 }
 
 #barra-menu img {
     margin: auto;
 }
 
-.icon-menu .menu {
-    font-size: 30px;
-    color: #000000;
+.icon-menu img {
+    width: 50px;
+    background-color: #f4e5d0da;
+    border-radius: 5px;
     margin-top: 15px;
     margin-right: 15px;
     display: none;
+}
+
+.icon-menu img:hover {
+   cursor: pointer;
 }
 
 #barra-menu {
@@ -236,13 +243,14 @@ MEDIAS = RESPONDIVIDADE - >*/
         display: none;
     }
 
-    .icon-menu .menu {
+    .icon-menu img {
         display: block;
     }
 
     #barra-menu {
         height: 100vh;
         z-index: 1;
+        width: 180px;
     }
 
     .main h1 {
