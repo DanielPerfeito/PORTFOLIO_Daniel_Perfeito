@@ -250,7 +250,7 @@ MEDIAS = RESPONDIVIDADE - >*/
     #barra-menu {
         height: 100vh;
         z-index: 1;
-        width: 180px;
+        width: 0px;
     }
 
     .main h1 {
