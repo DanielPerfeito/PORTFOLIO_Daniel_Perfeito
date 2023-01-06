@@ -35,14 +35,13 @@
 }
 
 .capa {
-    height: 200px;
+    height: 180px;
     width: 100%;
     overflow: hidden;
     display: block;
     margin: auto;
     border-top: solid 3px #00ffff;
     border-bottom: solid 3px #00ffff;
-    scale: 1.2;
 }
 
 .capa img {
