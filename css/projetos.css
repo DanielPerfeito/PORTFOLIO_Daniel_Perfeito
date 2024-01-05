@@ -31,7 +31,7 @@
     position: relative;
     overflow: hidden;
     text-align: center;
-    color: aqua;
+    color: #00ffff;
 }
 
 .capa {
@@ -49,13 +49,11 @@
     height: 100%;
     margin: auto;
     filter: grayscale(1);
-    transition: .8s;
+    transition: .4s;
 }
 
 .capa img:hover {
     filter: grayscale(0);
-    transition: .8s;
-    cursor: pointer;
 }
 
 .titulo-projeto {

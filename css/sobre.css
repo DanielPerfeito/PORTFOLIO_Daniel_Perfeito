@@ -9,8 +9,8 @@
 }
 
 .sobre img{
-    height: 600px;
-    border: solid 3px #f4e5d0;
+    width: 600px;
+   
 }
 
 .text-sobre{
@@ -76,7 +76,7 @@ MEDIAS = RESPONSIVIDADE*/
     .sobre img{
         height: 500px;
         width: auto;
-        border: solid 3px #f4e5d0;
+        
     }
 
     .text-sobre{
