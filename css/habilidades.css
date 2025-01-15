@@ -43,6 +43,12 @@
     border: double 10px #000000;
 }
 
+#card-npm > img{
+    
+    width: 100px;
+    padding: 10px;
+}
+
 .descricao-habilidade {
     margin: 0 15px;
 }
